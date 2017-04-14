@@ -1,0 +1,23 @@
+extends ./layout_atractivos_zona.pug
+
+block portada
+	.portada-vallenevado
+		h1.titulo-portada(lang="es") Valle nevado
+
+block descripcion
+	p(lang="es") A sólo 46 km de Santiago, Valle Nevado es uno de los resorts invernales y centros de ski más modernos en Chile y del continente. Nieve y deportes de invierno esperan para encantar a quienes lo visiten.	
+
+
+block itinerario
+	- list = ["Próximamente más información"]
+	ul(style="list-style-type:none;")
+		each item in list
+			li(lang="es", style="background-color:#b42020; color:white")= item	
+
+block listaImagenes
+	li
+		img(src="images/vallenevado1.jpg", alt="Nieve en Valle Nevado")
+	li
+		img(src="images/vallenevado2.jpg", alt="Hoteles en Valle Nevado")
+	li
+		img(src="images/vallenevado3.jpg", alt="Vista Restaurant La Fourchette")

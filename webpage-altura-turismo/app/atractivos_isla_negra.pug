@@ -1,0 +1,26 @@
+extends ./layout_atractivos_zona.pug
+
+block portada
+	.portada-isla-negra
+		h1.titulo-portada-2(lang="es") Isla Negra
+
+block descripcion
+	p(lang="es") Pablo Neruda fue un autodenominado “Navegante de tierra”, en alusión a su inmenso amor por el mar. La brisa marina y la tranquilidad del sector lograba que la inspiración llegara a Neruda mejor que en cualquier otro lugar, incluso para darle un nuevo nombre al sector, llamado Isla Negra por él. Un lugar fantástico para un día de tranquilidad.
+
+
+
+block itinerario
+	- list = ["Salida desde su hotel en horario convenido", "Visita viñedo a elección en Valle de Casablanca", "Visita Casa Museo Isla Negra", "Almuerzo en Isla Negra o Algarrobo", "Descanso en Algarrobo (visita ferias artesanales o playa)", "Regreso a hotel"]
+	ul(style="list-style-type:none;")
+		each item in list
+			li(lang="es")= item
+		li(lang="es", style="background-color:#b42020; color:white")= "Precio desde CLP $170.000 hasta 3 personas"
+
+
+block listaImagenes
+	li
+		img(src="images/islanegra1.jpg", lang="es", alt="Casa Museo Isla Negra")
+	li
+		img(src="images/islanegra2.jpg", lang="es", alt="Playa Isla Negra")
+	li
+		img(src="images/islanegra3.jpg", lang="es", alt="Viñedos")

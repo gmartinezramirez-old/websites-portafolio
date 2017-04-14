@@ -1,0 +1,23 @@
+extends ./layout_atractivos_zona.pug
+
+block portada
+	.portada-farellones
+		h1.titulo-portada-2(lang="es") Farellones - Colorado
+
+block descripcion
+	p(lang="es") El pueblito de Farellones, su centro de ski a más de 2.300 metros sobre el nivel del mar, su encantador bosque y su cercanía con Santiago, lo hacen un sitio imperdible para visitar en el invierno de Chile.
+
+block itinerario
+	- list = ["Salida desde su hotel en horario convenido", "Visita a mirador de los Tres Valles" ,"Visita centro de Ski Farellones - Colorado", "Almuerzo en Farellones", "Regreso a hotel"]
+	ul(style="list-style-type:none;")
+		each item in list
+			li(lang="es")= item
+		li(lang="es", style="background-color:#b42020; color:white")= "Precio desde CLP $220.000 hasta 3 personas"
+
+block listaImagenes
+	li
+		img(src="images/farellones1.jpg", alt="Camino a farellones")
+	li
+		img(src="images/farellones2.jpg", alt="Vista a Santiago")
+	li
+		img(src="images/farellones3.jpg", alt="Árboles y Nieve")

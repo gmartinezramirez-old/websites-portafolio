@@ -1,0 +1,5 @@
+open -u 'turism27','4i581tgrZC' ftp://turism27@turismoaltura.cl/
+set ftp:ssl-allow no
+mirror -v -X *.swp --reverse  dist/ /public_html
+exit
+

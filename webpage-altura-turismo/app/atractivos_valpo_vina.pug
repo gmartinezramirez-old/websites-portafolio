@@ -1,0 +1,29 @@
+extends ./layout_atractivos_zona.pug
+
+block portada
+	.portada-valpo
+		h1.titulo-portada-2(lang="es") Valparaíso y Viña del Mar
+
+block descripcion
+	p(lang="es") La “Joya del Pacífico” y la “Ciudad Jardín” se unen en un increíble tour. Los rincones y la historia de Valparaíso, la inigualable arquitectura presente en sus cerros, la poesía que yace en la casa de Pablo Neruda y los antiguos y llamativos funiculares de los cerros son un espectáculo digno de ver. El Parque Quinta Vergara, el famoso Reloj de Flores, el Casino de Juegos y las maravillosas playas, invitan a disfrutar de la belleza y encanto de Viña del Mar.
+
+
+block itinerario
+	- list = ["Salida desde su hotel en horario convenido", "Visita Cerro y Ascensor Polanco", "Visita Casa Museo La Sebastiana", "Walking tour por Cerro Alegre y Concepción", "Plaza Sotomayor y Muelle Prat", "Almuerzo en Viña del Mar","Visita al Reloj de Flores", "Walking tour por Parque Vergara", "Descanso en Playa Los Cañones","Regreso a hotel"]
+	ul(style="list-style-type:none;")
+		each item in list
+			li(lang="es")= item
+		li(lang="es", style="background-color:#b42020; color:white")= "Precio desde CLP $170.000 hasta 3 personas"
+
+block listaImagenes
+	li
+		img(src="images/valpo1.jpg", alt="Vista desde ascensor Polanco", lang="es").img-galeria
+	li
+		img(src="images/valpo2.jpg", alt="Reloj de Flores", lang="es").img-galeria
+	li
+		img(src="images/valpo3.jpg", alt="Playa Los Cañones", lang="es").img-galeria
+	li
+		img(src="images/valpo4.jpg", alt="Paseo Gervasoni", lang="es").img-galeria
+	li
+		img(src="images/valpo5.jpg", alt="Casa Museo La Sebastiana", lang="es").img-galeria
+

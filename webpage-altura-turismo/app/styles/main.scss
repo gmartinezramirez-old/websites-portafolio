@@ -1,0 +1,1416 @@
+$icon-font-path: '../fonts/';
+
+
+@font-face {
+    font-family: 'exo_2regular';
+    src: url($icon-font-path+'Exo2-Regular-webfont.eot');
+    src: url($icon-font-path+'Exo2-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url($icon-font-path+'Exo2-Regular-webfont.woff') format('woff'),
+         url($icon-font-path+'Exo2-Regular-webfont.ttf') format('truetype'),
+         url($icon-font-path+'Exo2-Regular-webfont.svg#exo_2regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2extra_bold';
+    src: url($icon-font-path+'Exo2-ExtraBold-webfont.eot');
+    src: url($icon-font-path+'Exo2-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url($icon-font-path+'Exo2-ExtraBold-webfont.woff') format('woff'),
+         url($icon-font-path+'Exo2-ExtraBold-webfont.ttf') format('truetype'),
+         url($icon-font-path+'Exo2-ExtraBold-webfont.svg#exo_2extra_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'exo_2light';
+    src: url($icon-font-path+'Exo2-Light-webfont.eot');
+    src: url($icon-font-path+'Exo2-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url($icon-font-path+'Exo2-Light-webfont.woff') format('woff'),
+         url($icon-font-path+'Exo2-Light-webfont.ttf') format('truetype'),
+         url($icon-font-path+'Exo2-Light-webfont.svg#exo_2light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'exo_2bold';
+    src: url($icon-font-path+'Exo2-Bold-webfont.eot');
+    src: url($icon-font-path+'Exo2-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url($icon-font-path+'Exo2-Bold-webfont.woff') format('woff'),
+         url($icon-font-path+'Exo2-Bold-webfont.ttf') format('truetype'),
+         url($icon-font-path+'Exo2-Bold-webfont.svg#exo_2bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "font-awesome.scss";
+@import "pgwslideshow.min.css";
+// endbower
+
+//#084b5c ~ 8,75,92
+
+//variables
+$color-fondo-logo: #084b5c;
+$color-fondo-logo-small: #084b5c;
+$color-fondo-icono: #3c3c3c; // color del fondo de los iconos del footer
+$color-fondo-footer: #01232b;
+$color-copyright-footer: #01232b;
+$color-fondo-wrapper: #ffffff;
+$color-fondo-contenedor: #ffffff;
+$color-fondo-contenedor-bloque: #E8E8E8;
+$color-fondo-header: rgba(8,75,92,0.6);
+$color-fondo-header-small: #084b5c;
+$color-fondo-header-resaltado: #023445;
+$color-navbar-titulo: #ffffff;
+$color-fondo-contacto-dato: #b42020;
+$altura-parallax: 400px;
+$color-dropdown-resaltado: $color-fondo-header-resaltado;
+$color-fondo-dropdown: white;  // color de los menus cuando esta colapsado
+$color-dropdown-activo: #2c7282;  // color de un elemento del dropdown activo
+$color-idiomas-enlinea-activo: #2c7282;
+
+strong{
+	font-family: 'exo_2bold';
+}
+
+.color-logo{
+  color: $color-fondo-logo;
+}
+
+.color-secundario{
+  color: #ED3434;
+}
+
+.centrar-texto{
+	text-align: center;
+}
+
+.subtitulo-home{
+	@extend .centrar-texto;
+  font-family: 'exo_2extra_bold'
+
+}
+
+.titulo-home{
+	@extend .subtitulo-home;
+	font-size: 4.5vw !important;
+    background: rgba(0,0,0,0.3);
+}
+
+#tours, #empresa, #contacto{
+  padding-top: 75px;
+}
+.seccion-contacto{
+  margin-top: 10px;
+}
+.contenedor-attr{
+  border-style: solid;
+  border-width: 2px;
+  border-color: $color-fondo-contenedor-bloque;
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 0px 0px 40px 0px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.icon-attr{
+  font-size: 56px;
+  display: block;
+  color: #777;
+}
+.text-attr{
+  margin: 4px;
+  display: block;
+}
+.gallery{
+  width: 100%;
+  margin-top: 50px;
+}
+.img-categoria{
+  height: 150px;
+  width: 150px;
+}
+
+a.nombre-categoria{
+  @extend .subtitulo-home;
+  text-decoration: none;
+  color: $color-fondo-logo;
+}
+
+.seccion-msje{
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+}
+.gallery .categoria-circle {
+  height: 150px;
+  width: 150px;
+  margin: 25px;
+  display:block;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+  background: $color-fondo-logo;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  .img-categoria{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    -webkit-border-radius: 50%;
+  	-moz-border-radius: 50%;
+  	border-radius: 50%;
+  }
+  .text{
+    @extend .subtitulo-home;
+    text-decoration: none;
+    color: white;
+    display:block;
+    text-align: center;
+    font-size: 24px;
+    transform:translate(0px);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    opacity: 0;
+    transition: transfom opacity 1.5s;
+  }
+  &:hover{
+    .img-categoria{
+        opacity: .5;
+    }
+    .text{
+      transform:translate(0px,-90px);
+      opacity: 1;
+    }
+  }
+}
+
+.gallery .categoria-circle img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+h1.titulo-portada{
+	@extend .centrar-texto;
+  position: absolute;  
+  color: black;
+  font-family: 'exo_2bold';
+  bottom: -2%;
+  left: 30%;
+  width: 40%;
+}
+//Creado de manera temporal porque en la imagen de la nieve no se ve el blanco
+h1.titulo-portada-2{
+	@extend .centrar-texto;  
+  color: white;
+  font-family: 'exo_2bold';
+  bottom: -2%;
+  left: 30%;
+  width: 40%;
+  position: absolute;
+}
+//Generico para ser usado en las vistas de categoria como de cada viaje
+.portada-categoria{
+  position: relative;
+  width:100%;
+  height: 460px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -20px;
+}
+
+.portada-mar{
+  @extend .portada-categoria;
+  background: url(../images/mar2.jpg) no-repeat bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.portada-valle{
+  @extend .portada-categoria;
+  background: url(../images/valle2.jpg) no-repeat bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.portada-montana{
+  @extend .portada-categoria;
+  background: url(../images/montana2.jpg) no-repeat bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.div-categoria{
+  margin-bottom: 50px;
+}
+.imagen{
+  width: 100%;
+}
+
+.imagen-viaje {
+  @extend .imagen;
+}
+.col-viaje{
+  height: 460px;
+  margin-bottom: 20px;
+}
+a.link-viaje {
+  display: block;
+  position: relative;
+  text-decoration:none;
+  color: black;
+  max-width: 250px;
+  min-width: 170px;
+  width: 90%;
+  margin: 0 auto;
+  -webkit-transition: margin 0.05s ease-out;
+  -moz-transition: margin 0.05s ease-out;
+  -ms-transition: margin 0.05s ease-out;
+  transition: margin 0.05s ease-out;
+  /*@media screen and (max-width: 768px){
+		margin-left: 15%;
+	}*/
+}
+.col-viaje a.link-viaje:hover{
+  margin-top: 4px;
+  border-radius: 0px 0px 40px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contenedor-viaje{
+  //background-color: $color-fondo-contenedor-bloque;
+  border-style: solid;
+  border-width: 2px;
+  border-color: $color-fondo-contenedor-bloque;
+  position: relative;
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 100%;
+  display: block;
+  border-radius: 0px 0px 40px 0px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contenedor-atractivo{
+	@extend .contenedor-viaje;
+	margin-bottom: 40px;
+
+}
+
+.contenedor-atractivos{
+	@media screen and (max-width: 768px){
+		margin-left: 15%;
+	}
+
+}
+
+.contenedor-imagen{
+  margin: 0px;
+}
+.contenedor-descripcion{
+  margin: 0px;
+  text-decoration: none;
+}
+.descripcion-titulo{
+	@extend .centrar-texto;
+  height:65px;
+  text-decoration: none;
+}
+.descripcion-contenido{
+  height:50%;
+  margin: 5%;
+  text-decoration: none;
+}
+.boton-categoria{
+  background-color: $color-fondo-logo;
+  border-color: $color-fondo-logo;
+  color: white;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Contenedores para layout de paginas informativas de tours*/
+
+#wrapper-tours{
+  background-color: $color-fondo-wrapper;
+  width: 100%;
+}
+
+#contenedor-tours{
+  background-color: $color-fondo-contenedor;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-bottom: 60px;
+  padding-top: 50px;
+}
+
+/* Fin contendores para layout de paginas informativas de tours */
+
+/* Atractivos Zona */
+
+.contenedor-seccion{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.portada-valpo{
+  @extend .portada-categoria;
+  background: url(../images/valpo1.jpg) no-repeat bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portada-isla-negra{
+  @extend .portada-categoria;
+  background: url(../images/portada-islanegra.jpg) no-repeat bottom center;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portada-sj-maipo{
+  @extend .portada-categoria;
+  background: url(../images/portada-sanjose.jpg) no-repeat bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portada-santiago{
+  @extend .portada-categoria;
+  background: url(../images/santiago3.jpg) no-repeat bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portada-vinas{
+  @extend .portada-categoria;
+  background: url(../images/valle2.jpg) no-repeat bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.portada-vallenevado{
+  @extend .portada-categoria;
+  background: url(../images/montana2.jpg) no-repeat bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.portada-farellones{
+  @extend .portada-categoria;
+  background: url(../images/portada-farellones.jpg) no-repeat bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+//efecto fade para carrusel
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+
+// para corregir iconos nuevos en carrusel
+
+.icono-carrusel{
+  position: absolute;
+  top: 45%;
+  z-index: 5;
+  display: inline-block;
+  font-size: 40px;
+}
+
+.icono-carrusel-left{
+  @extend .icono-carrusel;
+  left: 50%;
+}
+
+.icono-carrusel-right{
+  @extend .icono-carrusel;
+  right: 50%;
+}
+
+.icono-carrusel-left, .icono-carrusel-right {
+  @media screen and (max-width: 768px) {
+    font-size: 25px;
+  }
+}
+
+
+.contenedor-itinerario{
+	background-color: transparent;
+	color: black;
+
+	h2{
+		text-align: center;
+	}
+
+	ul{
+		padding-top: 10px;
+		padding-left: 0px;
+	}
+
+	li{
+		text-align: left;
+		padding: 8px;
+		padding-left: 20px;
+		margin-bottom: 6px;
+		margin-top: 6px;
+		background-color: #e9e9e9;  //$color-fondo-header-resaltado; //$color-fondo-logo;
+		border-left: 10px solid $color-fondo-logo;
+		//border-radius: 20px;
+	}
+
+	i{
+		color: #777 !important;
+	}
+}
+
+.divider {
+    height: 1px;
+    overflow: hidden;
+    background-color: #888;
+    text-align: center !important;
+}
+
+.fix-icon-it{
+	margin-top: -10px;
+}
+
+.fix-row-itinerario{
+	margin-top: 20px;
+}
+
+.fix-ul{
+	ul{
+		padding-left: 0px;
+	}
+}
+/* Fin Atractivos Zona */
+
+
+/* Efecto parallax scrolling */
+
+//se debe colocar en un div que cubra toda la zona
+.parallax{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	position: relative;
+	margin: 0 auto;
+	//definir dimensiones
+	min-height: $altura-parallax;
+	width: 100%;
+	//imagen de fondo
+	//background-size
+}
+
+.parallax-empresa{
+	@extend .parallax;
+	background-image: url(../images/santiago_parallax.JPG);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	//-webkit-box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+	//box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+}
+
+.contenido-empresa{
+	p{
+		strong{
+			font-size: 19px;
+		}
+	}
+}
+
+#carrusel-empresa{
+	ol{
+		li{
+			width: 16px;
+			height: 16px;
+			border: 2px solid #fff;
+		}
+
+		li.active{
+			width: 17px;
+			height: 17px;
+		}
+	}
+}
+
+/* FIN Efecto parallax scrolling */
+
+
+.ajuste-carrusel{
+	width: 100%;
+	min-height: $altura-parallax;
+}
+
+.titulo-carrusel{
+	@extend .subtitulo-home;
+	margin-top: 80px;
+	width: 100%;
+	position: absolute;
+	color: white;
+}
+
+.item {
+	p {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+.contenido-empresa{
+	@extend .centrar-texto;
+	color: white;
+	width: 100%;
+	min-height: $altura-parallax;
+	align-items: center;
+ -webkit-align-items: center;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 200px;
+	margin-bottom: 80px;
+
+}
+
+
+.contenedor-sombra{
+	@extend .ajuste-carrusel;
+	background-color: rgba(0,0,0,0.6);
+}
+
+/*obtenido desde polmo*/
+html,
+body {
+    background: #ffffff;
+    font-family: 'exo_2light';
+    font-size: 17px;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    -moz-font-smoothing: subpixel-antialiased !important;
+    -ms-font-smoothing: subpixel-antialiased !important;
+    -o-font-smoothing: subpixel-antialiased !important;
+    text-rendering: optimizeLegibility !important;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	@extend .centrar-texto;
+  border-bottom: 1px solid #e5e5e5;
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+
+/* estilos del header */
+.header {
+    background: $color-fondo-header;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 0px;
+    z-index: 99999;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size:16px;
+
+    position: fixed;
+
+}
+
+
+/* Estilo del logo en el navbar*/
+#navbar-logo{
+    display: block;
+    border-radius: 0px 0px 75px 75px;
+    margin-top: -20px;
+    border-radius: 200px;
+    background-color: $color-fondo-logo;
+
+    -webkit-transition: all 0.3s linear;
+       -moz-transition: all 0.3s linear;
+         -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+
+    .navbar-collapse &:after{
+        background-image: none;
+        opacity: 0.0;
+    }
+}
+
+
+.logo{
+    max-width: 160px;
+    max-height: 160px;
+    z-index: -1;
+    border-radius: 200px;
+
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+}
+
+header.smaller{
+    background-color: $color-fondo-header-small;
+    /*achica el logo*/
+    .logo{
+        max-width:  80px;
+        max-height: 80px;
+        background-color: $color-fondo-logo-small;
+    }
+    /*Se achican los botones*/
+    .navbar-nav > li > a{
+        -webkit-transition: all 0.3s;
+           -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+             -o-transition: all 0.3s;
+                transition: all 0.3s;
+        padding: 15px;
+    }
+    /*Se achica el boton "torta" del navbar*/
+    .navbar-header > button{
+        -webkit-transition: all 0.3s;
+           -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+             -o-transition: all 0.3s;
+                transition: all 0.3s;
+        padding: 3px 3px;
+    }
+
+    /*achica el mensaje de contacto*/
+    .header-dato-contacto{
+        padding: 5px;
+        margin-top: 10px;
+    }
+}
+
+/*deja el icono del navbar collapsado en blanco*/
+.icono-blanco{
+    color: white;
+}
+
+.navbar-titulo{
+    display: none !important;
+}
+
+/* estilo dropdown del header */
+.navbar-nav {
+    & > li.active{
+        background: $color-dropdown-activo;
+    }
+    & .dropdown .dropdown-menu > li{
+        & > a{
+            color: black;
+            background: white;
+        }
+        & a:hover{
+            color: white ;
+            background: $color-dropdown-resaltado;
+        }
+        &.active a{
+            background: $color-dropdown-activo;
+        }
+
+        & > div {
+            display: block;
+            padding: 3px 20px;
+            clear: both;
+            font-weight: normal;
+            line-height: 1.428571429;
+            white-space: nowrap;
+            cursor:pointer;
+        }
+        & div:hover{
+            color: white ;
+            background: $color-dropdown-resaltado;
+        }
+        &.active div{
+            background: $color-dropdown-activo;
+        }
+    }
+
+    & > li > a {
+        box-shadow: none;
+        color: white !important;
+        font-size: .93em;
+        font-weight: 400;
+        padding: 25px 20px;
+
+        &:hover,
+        &:focus{
+            background-color: $color-fondo-header-resaltado !important;
+            background: $color-fondo-header-resaltado !important;
+        }
+    }
+}
+
+.navbar-brand {
+    padding-top: 20px;
+}
+
+.navbar-default .navbar-nav {
+    & > .active{
+        > a,
+        > a:focus,
+        > a:hover{
+            background: transparent;
+        }
+    }
+    & > .open {
+        > a,
+        > a:focus,
+        > a:hover{
+            /*color que adquiere el elemento que abre un dropdown cuando se abre*/
+            background-color: transparent ;
+        }
+    }
+
+}
+
+.header-dato-contacto{
+    /* obtenido desde el css de bootrap */
+    text-decoration: none;
+    box-shadow: none;
+    color: #ffffff !important;
+    font-size: .92em;
+    font-weight: 400;
+    position: relative;
+    display: block;
+
+    /* personalizacion */
+    font-weight: bold;
+    background-color: $color-fondo-contacto-dato;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 15px;
+
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+}
+.idiomas-horizontal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.idiomas-row{
+    margin-left: 0px;
+    margin-right: 0px;
+	text-align: center;
+
+    & div{
+        padding: 10px;
+    }
+    & li > div{
+        cursor:pointer;
+    }
+    & div.active div{
+        background-color: $color-dropdown-activo;
+    }
+    & div div:hover{
+        background-color: $color-fondo-header-resaltado;
+    }
+
+    header.smaller & div.active div{
+        background-color: $color-idiomas-enlinea-activo;
+    }
+
+}
+
+
+// HOME
+.slider-text{
+    background-color: rgba(0, 0, 0, 0.00)!important;
+}
+
+
+
+
+/*desde polmo*/
+.section-padding {
+    padding: 35px 0px;
+}
+
+
+
+/* footer del polmo */
+.fila-social{
+  height: 100%;
+}
+.col-social{
+  height: 100px;
+}
+.boton-social{
+  width: 100%;
+  height: 100px;
+  display: table;
+  background-color:#001318;
+  color: #808080;
+  border-radius: 0px 0px 0px 0px;
+  border-left-style: solid;
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-color: #808080;
+  border-width: 1px;
+}
+.boton-social#btn-whatsapp{
+  border-right-style: solid;
+  cursor: default;
+}
+.container-social{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.icon-social{
+  font-size: 32px;
+  display: inline;
+}
+.text-social{
+  font-size: 20px;
+  display: inline;
+}
+#btn-facebook:hover{
+  background-color: #3b5998;
+  color: white;
+}
+#btn-twitter:hover{
+  background-color: #00aced;
+  color: white;
+}
+#btn-instagram:hover{
+  /*background: -webkit-linear-gradient(right top, #405de6 , #fd1d1d, #ffdc80);
+  background: -o-linear-gradient(bottom left, #405de6 , #fd1d1d, #ffdc80);
+  background: -moz-linear-gradient(bottom left, #405de6 , #fd1d1d, #ffdc80);
+  background: linear-gradient(to bottom left, #405de6 , #fd1d1d, #ffdc80);*/
+  background-color: #e1306c;
+  color: white;
+}
+#btn-whatsapp:hover{
+  background-color: #43d854;
+  color: white;
+}
+footer {
+  clear: both;
+  text-align: center;
+	margin-top: 50px;
+}
+.footer-top {
+    background-color: $color-fondo-footer;
+    color: white;
+    clear: both;
+}
+.footer-top a {
+    color: #f1f1f1;
+    font-size: .8125em;
+}
+.footer-top a:hover {
+    color: #e74c3c;
+}
+footer .widget-title {
+    font-size: 1.4em;
+    font-weight: 300;
+    padding-bottom: 8px;
+    margin-left: 20px;
+}
+.footer-top a:hover {
+    color: #e74c3c;
+}
+
+.widget-details{
+    margin-left: 20px;
+}
+.widget-details nav li,
+.title-list li {
+    display: block;
+    padding-bottom: 7px;
+}
+.widget-details nav li a,
+.title-list a {
+    border-bottom: 1px solid #252525;
+    padding-bottom: 7px;
+}
+.widget-details nav li:last-child a,
+.title-list li:last-child a {
+    border-bottom: none;
+}
+
+.footer-row{
+	@extend .fix-row;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+
+.footer-row-logo{
+	@extend .fix-row;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.footer-ultima-row{
+	@extend .fix-row;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 12px !important;
+	background-color: $color-copyright-footer;
+}
+
+footer{
+	p {
+		margin: 0px !important;
+	}
+}
+
+
+/* clase para quitar el -15 de margen a la derecha*/
+.fix-row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+//para quitar el padding
+.fix-col{
+  position: relative;
+  padding: 0px;
+  height: 100%;
+}
+.footer-logo{
+    background-color: #2c7282;
+    border-radius: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.col-footer-logo{
+	@extend .centrar-texto;
+}
+.icono-footer{
+    background-color: #3c3c3c;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.1em;
+}
+.logo-twitter-footer{
+    background-color: #55acee;
+    border-radius: 5px;
+    margin-left: -4px;
+}
+.logo-footer{
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.texto-contacto-footer{
+    font-size: 1.0em;
+    margin-left: 0px;
+}
+.sin-padding-left{
+    padding-left: 0px;
+}
+.center{
+    text-align: center;
+}
+.datos{
+    margin-top: 50px;
+}
+.panel{
+  margin: 0 auto;
+  width: 440px;
+}
+
+.mostrar-collapse{
+    display: none !important;
+}
+
+
+/*
+ * Momento en donde se fuerza a colapsar el navbar
+ */
+@media (max-width: 915px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-toggle:hover, .navbar-toggle:focus {
+        background-color: rgb(0, 19, 24) !important;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1) !important;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+    /*estilo de los elementos del header pequeño*/
+    header.smaller .navbar-nav > li > a {
+        padding: 7px;
+    }
+    /* Estilo del logo en el navbar*/
+    #navbar-logo:after{
+        background-image: -webkit-linear-gradient(transparent 38%, $color-fondo-logo 38%, $color-fondo-logo);
+        background-image:    -moz-linear-gradient(transparent 38%, $color-fondo-logo 38%, $color-fondo-logo);
+        background-image:     -ms-linear-gradient(transparent 38%, $color-fondo-logo 38%, $color-fondo-logo);
+        background-image:      -o-linear-gradient(transparent 38%, $color-fondo-logo 38%, $color-fondo-logo);
+        background-image:         linear-gradient(transparent 38%, $color-fondo-logo 38%, $color-fondo-logo);
+    }
+
+
+    .header{
+        background: none;
+    }
+    .fix-header{
+        background: $color-fondo-header;
+    }
+    .menu-navbar{
+        background: $color-fondo-header;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        border-radius: 0px 0px 0px 20px;
+    }
+    .esconder-collapse{
+        display: none !important;
+    }
+    .mostrar-collapse{
+        display: block !important;
+    }
+
+    header.smaller{
+        background: none;
+
+        .fix-header{
+            background: $color-fondo-header-small;
+        }
+        .menu-navbar{
+            background: $color-fondo-header-small;
+            border-radius: 0px 0px 0px 20px;
+        }
+    }
+}
+
+
+/*Esta medida es cuando el dropdown se abre expandiendo el menu*/
+@media (max-width: 767px) {
+    .navbar-nav {
+        & .dropdown .dropdown-menu > li{
+            & > a{
+                color: black !important;
+                background: white !important;
+            }
+            & a:hover{
+                color: white  !important;
+                background: $color-dropdown-resaltado !important;
+            }
+            &.active a{
+                background: $color-dropdown-activo !important;
+            }
+        }
+    }
+    .boton-social{
+      border-left-style: none;
+      border-right-style: none;
+      border-bottom-style: solid;
+    }
+    .boton-social#btn-whatsapp{
+      border-right-style: none;
+    }
+}
+
+/*
+ * Medida en donde se esconde el logo del header y cuando se deja el menu del
+ * navbar ocupando toda el ancho de la pantalla
+ */
+@media (max-width: 640px) {
+    /*se quita el logo del header*/
+    .logo{
+        display: none !important;
+    }
+    /*Se quita la imagen debajo del logo*/
+    #navbar-logo{
+        display: none !important;
+
+        &:after{
+        background-image: none;
+        }
+    }
+    /* Muestra el titulo en el header */
+    .navbar-titulo{
+        display: block !important;
+        color: $color-navbar-titulo;
+    }
+
+    .navbar-collapse.pull-right {
+        float: none !important;
+    }
+    .menu-navbar{
+        background: $color-fondo-header;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .nav.navbar-nav li a{
+        text-align: center;
+    }
+
+    .nav.navbar-nav .header-dato-contacto{
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    header.smaller{
+        background: none;
+
+        .fix-header{
+            background: $color-fondo-header-small;
+        }
+        .menu-navbar{
+            background: $color-fondo-header-small;
+            border-radius: 0px 0px 0px 0px;
+        }
+    }
+    .titulo-home{
+        font-size: 40px !important;
+    }
+
+}
+
+
+
+/***** Top content *****/
+
+.inner-bg {
+    padding: 40px 0 170px 0;
+}
+
+.top-content .text {
+	color: #fff;
+}
+
+.top-content .text h1 { color: #fff; }
+
+.top-content .description {
+	margin: 20px 0 10px 0;
+}
+
+.top-content .description p { opacity: 0.8; }
+
+.top-content .description a {
+	color: #fff;
+}
+.top-content .description a:hover,
+.top-content .description a:focus { border-bottom: 1px dotted #fff; }
+
+.top-content .top-big-link {
+	margin-top: 35px;
+}
+
+.form-box {
+	padding-top: 40px;
+}
+
+.form-top {
+	overflow: hidden;
+	padding: 0 25px 15px 25px;
+	background: rgba(8,75,92,0.6);
+	-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+	text-align: left;
+}
+
+.form-top-left {
+	float: left;
+	width: 75%;
+	padding-top: 25px;
+}
+
+.form-top-left h3 { margin-top: 0; color: #fff; }
+.form-top-left p { opacity: 0.8; color: #fff; }
+
+.form-top-right {
+	float: left;
+	width: 25%;
+	padding-top: 5px;
+	font-size: 66px;
+	color: #fff;
+	line-height: 100px;
+	text-align: right;
+	opacity: 0.3;
+}
+
+.form-bottom {
+	padding: 25px 25px 30px 25px;
+	background: rgba(8,75,92,0.2);
+	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+	text-align: left;
+}
+
+.form-bottom form textarea {
+	height: 100px;
+}
+
+.form-bottom form .input-error {
+	border-color: #19b9e7;
+}
+
+.form-bottom p { opacity: 0.8; color: #fff; }
+
+
+.icon-form {
+  background-color: transparent;
+  border: 0x;
+  color: #01232b;
+}
+
+.img-galeria{
+  width: 100px;
+}
+.contenedor-terminos{
+  text-align: justify;
+}
+.nota-importante{
+  text-align: left;
+  margin-top: 30px;
+}
+
+// Button form
+
+button.btn {
+	height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: rgba(8,75,92,0.8);;
+    border: 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+    text-shadow: none;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+button.btn:hover { opacity: 0.6; color: #fff; }
+
+button.btn:active { outline: 0; opacity: 0.6; color: #fff; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+
+button.btn:focus { outline: 0; opacity: 0.6; background: #19b9e7; color: #fff; }
+
+button.btn:active:focus, button.btn.active:focus { outline: 0; opacity: 0.6; background: #19b9e7; color: #fff; }

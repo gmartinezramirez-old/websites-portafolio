@@ -1,0 +1,42 @@
+extends ./layout_categoria.pug
+
+block imagenPortada
+
+	.portada-mar
+		h1.titulo-portada-2(lang="es") Tours en el Mar
+
+block descripcion
+
+	.div-categoria
+		.row
+			.col-lg-6.col-lg-offset-3.text-center
+				h4.centrar-texto(lang="es") El Océano Pacífico baña las costas de Chile, invitando a descansar y recorrer las ciudades que se encuentran en sus orillas.
+
+block viajes
+
+	.row
+		.col-md-3.col-md-offset-3.col-sm-4.col-sm-offset-2.col-xs-10.col-xs-offset-1.col-viaje
+			a(href="atractivos_valpo_vina.html" class="link-viaje")
+				.contenedor-viaje
+					.row.contenedor-imagen
+						img(src="images/chica-valpo.jpg", alt="Viaje", ).imagen-viaje
+					.row.contenedor-descripcion
+						.descripcion-titulo.color-logo
+							h3(lang="es") Valparaíso y Viña del Mar
+						.descripcion-contenido
+							h5(lang="es") ¡Ven a conocer la historia de la Joya del Pacífico y la Ciudad Jardín!
+							h5(lang="es") Más información aquí
+							br
+
+		.col-md-3.col-md-offset-0.col-sm-4.col-sm-offset-0.col-xs-10.col-xs-offset-1.col-viaje
+			a(href="atractivos_isla_negra.html" class="link-viaje")
+				.contenedor-viaje
+					.row.contenedor-imagen
+						img(src="images/chica-islanegra.jpg", alt="Viaje", ).imagen-viaje
+					.row.contenedor-descripcion
+						.descripcion-titulo.color-logo
+							h3(lang="es") Isla Negra
+						.descripcion-contenido
+							h5(lang="es") ¡La poesía y la brisa marina se unen en el hogar preferido de Pablo Neruda!
+							h5(lang="es") Más información aquí
+							br

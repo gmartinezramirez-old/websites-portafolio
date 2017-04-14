@@ -1,0 +1,55 @@
+header#masthead.navbar.navbar-default.navbar-fixed-top.header
+    .navbar-header.fix-header
+      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#main-menu', aria-expanded='false')
+        i.fa.fa-bars.icono-blanco
+      // logo
+      a.navbar-brand(href='./')
+        p.navbar-titulo Turismo Altüra
+        div#navbar-logo
+          img(src='images/turismoaltura_logo.png', alt='Site Logo').logo
+    nav#main-menu.collapse.navbar-collapse.pull-right.header-transicion.menu-navbar
+      ul.nav.navbar-nav
+        li.active#header-inicio
+          a.click(href='#inicio', lang="es") Inicio
+        li.dropdown#header-tours
+          a.dropdown-toggle(data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false', lang="es")
+            | Tours
+            span.caret
+          ul.dropdown-menu
+            li
+              a(href="mar.html", lang="es") Tours Mar
+            li
+              a(href="montana.html", lang="es") Tours Montaña
+            li
+              a(href="valle.html", lang="es") Tours Valle            
+        li#header-empresa
+          a.click(href='#empresa', lang="es") Nuestra Empresa
+        li#header-contacto
+          a.click(href='#contacto', lang="es") Contacto
+        li#header-dato-contacto
+          .header-dato-contacto contacto@turismoaltura.cl
+        li.dropdown#idiomas-dropdown.esconder-collapse
+          a.dropdown-toggle(href='tours.html', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+            span#idioma.flag-icon
+            span.caret
+          ul.dropdown-menu
+            li#lang-espanol
+              div(onclick="cambiarIdioma('es')")
+                span.flag-icon.flag-icon-es
+            li#lang-ingles
+              div(onclick="cambiarIdioma('en')")
+                span.flag-icon.flag-icon-gb
+            li#lang-portugues
+              div(onclick="cambiarIdioma('pt')")
+                span.flag-icon.flag-icon-br
+        li.mostrar-collapse.idiomas-horizontal
+          .row.idiomas-row
+            .col-xs-4#lang-espanol-nl
+              div(onclick="cambiarIdioma('es')")
+                span.flag-icon.flag-icon-es
+            .col-xs-4#lang-ingles-nl
+              div(onclick="cambiarIdioma('en')")
+                span.flag-icon.flag-icon-gb
+            .col-xs-4#lang-portugues-nl
+              div(onclick="cambiarIdioma('pt')")
+                span.flag-icon.flag-icon-br

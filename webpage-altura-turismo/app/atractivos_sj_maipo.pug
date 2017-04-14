@@ -1,0 +1,27 @@
+extends ./layout_atractivos_zona.pug
+
+block portada
+	.portada-sj-maipo
+		h1.titulo-portada San José de Maipo
+
+block descripcion
+	p(lang="es") La maravillosa naturaleza que existe en la zona central de la imponente Cordillerade los Andes es un gran atractivo turístico de la Región Metropolitana. Sin embargo, no es lo único presente en San José de Maipo. Su cercanía con la capital de la región permite conocer su historia y patrimonio cultural de la zona.
+
+
+block itinerario
+	- list = ["Salida desde su hotel en horario convenido", "Walking tour por centro de San José de Maipo", "Actividad a elección en Cascada de las Ánimas (trekking, cabalgata, rafting, entre otros)","Visita a La Mielería de Pirque","Almuerzo en Pirque", "Visita a viña a elección (Santa Rita o Concha y Toro)" ,"Regreso a hotel"]
+	ul(style="list-style-type:none;")
+		each item in list
+			li(lang="es")= item
+		li(lang="es", style="background-color:#b42020; color:white")= "Precio desde CLP $170.000 hasta 3 personas"
+
+
+block listaImagenes
+	li
+		img(src="images/sanjose1.jpg",lang="es", alt="Rio Maipo")
+	li
+		img(src="images/sanjose2.jpg",lang="es", alt="Sendero San José de Maipo")
+	li
+		img(src="images/sanjose3.jpg",lang="es", alt="Sendero San José de Maipo")
+	li
+		img(src="images/sanjose4.jpg",lang="es", alt="Plaza de San José de Maipo")

@@ -1,0 +1,54 @@
+extends ./layout_categoria.pug
+
+block imagenPortada
+
+	.portada-valle
+		h1.titulo-portada(lang="es") Tours en el Valle
+
+block descripcion
+
+	.div-categoria
+		.row
+			.col-lg-6.col-lg-offset-3
+				h4.centrar-texto(lang="es") Oculto entre la Cordillera de la Costa y la Cordillera de los Andes, el valle de la zona central de Chile esconde hermosos paisajes naturales.
+
+block viajes
+	.row
+		.col-md-8.col-md-offset-2.col-sm-10.col-sm-offset-1
+			.row
+				.col-md-4.col-ms-offset-0.col-sm-4.col-sm-offset-0.col-xs-10.col-xs-offset-1.col-viaje
+					a(href="atractivos_sj_maipo.html" class="link-viaje")
+						.contenedor-viaje
+							.row.contenedor-imagen
+								img(src="images/chica-sanjose.jpg", alt="Viaje", ).imagen-viaje
+							.row.contenedor-descripcion
+								.descripcion-titulo.color-logo
+									h3(lang="es") San José de Maipo
+								.descripcion-contenido
+									h5(lang="es") ¡Descubre la historia y la naturaleza a los pies de la Cordillera de los Andes!
+									h5(lang="es") Más información aquí
+									br
+				.col-md-4.col-ms-offset-0.col-sm-4.col-sm-offset-0.col-xs-10.col-xs-offset-1.col-viaje
+					a(href="atractivos_santiago.html" class="link-viaje")
+						.contenedor-viaje
+							.row.contenedor-imagen
+								img(src="images/chica-santiago.jpg", alt="Viaje", ).imagen-viaje
+							.row.contenedor-descripcion
+								.descripcion-titulo.color-logo
+									h3(lang="es") City Tour Santiago
+								.descripcion-contenido
+									h5(lang="es") ¡Santiago es mucho más que la capital de Chile!
+									h5(lang="es") Más información aquí
+									br
+				.col-md-4.col-ms-offset-0.col-sm-4.col-sm-offset-0.col-xs-10.col-xs-offset-1.col-viaje
+					a(href="atractivos_vinas.html" class="link-viaje")
+						.contenedor-viaje
+							.row.contenedor-imagen
+								img(src="images/chica-vinos.jpg", alt="Viaje", ).imagen-viaje
+							.row.contenedor-descripcion
+								.descripcion-titulo.color-logo
+									h3(lang="es") Wine Tours
+								.descripcion-contenido
+									h5(lang="es") Descubre los vinos de clase mundial a pocos kilómetros de Santiago.
+									h5(lang="es") Más información aquí
+									br

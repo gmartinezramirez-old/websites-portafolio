@@ -1,0 +1,199 @@
+{
+	"token": {
+		"Inicio":"Home",
+		"Servicios":"serviços",
+		"Nuestra Empresa":"Nossa Empresa",
+		"Contacto":"Contato",
+		"Tours Mar":"Passeios mar",
+		"Tours Montaña":"Passeios Montanha",
+		"Tours Valle":"Passeios Vale",
+		"Transfer":"Transfer",
+		"Ingles":"Inglês",
+		"Español":"Espanhol",
+		"Portugués":"Português",
+
+		"Bienvenido a":"Bem-vindo a",
+		"los sabores y secretos de Chile":"os sabores e os segredos do Chile",
+		"Descubre":"Discover",
+		"¡Vive la":"!Viva a",
+		"experiencia Altüra!":"experiência Altüra!",
+
+
+		"Turismo Altüra": "Turismo Altüra",
+		"Viajes seguros con profesionales": "Passeios seguros com pessoas professionais",
+		"Valores acordes a sus requisitos": "Preços de acordo com as suas actividades",
+		"Tours flexibles a sus necesidades": "Tours flexíveis para suas necessidades e preferências",
+		"Conozca los increíbles atractivos turísticos de la zona central de Chile: la belleza del Océano Pacífico, los fascinantes viñedos, la historia de Santiago, la naturaleza presente en el valle y los emocionantes deportes de invierno.": "Conheça os incríveis pontos turísticos da região central do Chile: a beleza e poesia do Oceano Pacífico, os prestigiados vales do vinho, a história de Santiago, a impressionante natureza no vale e os emocionantes esportes de inverno.",
+		"Mar":"Mar",
+		"Valle":"Vale",
+		"Montaña":"Mountanah",
+
+
+
+		"Quienes somos":"Nossa empresa",
+		"Liderada por dos profesionales de la industria":"Liderada por dois profissionais da indústria",
+		", Turismo Altüra es una empresa joven, orientada a entregar una experiencia única y privada a los turistas que deseen conocer la zona central de Chile. Destaca la cercanía lograda con las personas que prefieren a Turismo Altüra.":", Turismo Altüra é uma empresa jovem, focada em fornecer uma experiência única e privada para os turistas que desejam explorar a zona central do Chile.  Turismo Altüra enfatiza um serviço acolhedor para os turistas, fazendo passeios diferentes de acordo com o que os nossos turistas querem visitar no Chile.",
+
+		"se dedica a otorgar un servicio de excelencia, completamente de acuerdo a las necesidades y requerimientos de cada grupo de turistas. Por este motivo, ningún servicio entregado por Turismo Altüra es igual a otro: cada tour es una experiencia única e irrepetible.":"  trabalha para fornecer um excelente serviço, completamente de acordo com as necessidades e exigências de cada grupo de turistas. Por esta razão, em Turismo Altüra nenhum passeio é igual a outro, cada passeio é uma experiência única e irrepetivel feita só para você.",
+
+
+		"Nuestra misión": "Nossa missão",
+		"es entregar las mejores experiencias a través de Circuitos Turísticos Privados de la más alta calidad en increíbles destinos nacionales, principalmente de la zona central de Chile, con un interés especial en fomentar el desarrollo de negocios locales, buscando satisfacer las necesidades identificadas de nuestros clientes, por medio de la flexibilidad y la comunicación constante, de modo de enriquecer tanto a la sociedad residente como a la visitante.": " é oferecer as melhores experiências através de circuitos turísticos da mais alta qualidade em incríveis destinos nacionais, principalmente na zona central do Chile, com um interesse especial na promoção do desenvolvimento das pequenas empresas locais, procurando atender as necessidades identificadas dos turistas, através da flexibilidade e comunicação constante.",
+		"Nuestra visión": "Nossa visão",
+		"es ser una empresa líder en el mercado turístico, capaz de satisfacer las necesidades de  cada grupo de turistas que lleguen al país.": "é ser uma empresa líder no mercado de turismo, capaz de satisfazer as necessidades de cada grupo de turistas que chegam ao Chile em busca de experiências reais e únicas.",
+
+		"Viaja junto a": "Viaja com ",
+		"nosotros": "Turismo Altüra!",
+		"Vive la experiencia Altüra": "Vive a experiência Altüra",
+		"Envíanos un mensaje": "Contacte-nos para conhecer os nossos passeios. Não se esqueça de incluir o número de passageiros e o nome do passeio ou cidade que deseja visitar",
+		"Nombre...": "Nome...",
+		"E-Mail...": "E-Mail...",
+		"Mensaje...": "Mensagem...",
+		"Enviar Mensaje": "Enviar mensagem",
+
+
+		"Terminos y condiciones de uso.": "Termos e condições de uso.",
+		"@2016 Turismo Altüra. Todos los derechos reservados": "@2016 Turismo Altüra. Todos os direitos reservados",
+
+
+
+
+
+
+
+		"Itinerario Base":"Itinerária inicial",
+		"Tours en el Mar":"Passeios no mar",
+
+		"El Océano Pacífico baña las costas de Chile, invitando a descansar y recorrer las ciudades que se encuentran en sus orillas.":"O oceano Pacífico banha a costa do Chile, convidando para descansar e visitar as cidades localizadas em suas margens.",
+
+		"Valparaíso y Viña del Mar":"Valparaíso e Viña del Mar",
+		"¡Ven a conocer la historia de la Joya del Pacífico y la Ciudad Jardín!": "Venha conhecer a história de a Jóia do Pacífico e a cidade jardim",
+
+		"Más información aquí": "Mais informações aqui",
+
+		"Isla Negra": "Isla Negra",
+		"¡La poesía y la brisa marina se unen en el hogar preferido de Pablo Neruda!": "Poesia e brisa do mar estão presentes no lugar favorito de Pablo Neruda.",
+
+
+
+
+
+
+		"La “Joya del Pacífico” y la “Ciudad Jardín” se unen en un increíble tour. Los rincones y la historia de Valparaíso, la inigualable arquitectura presente en sus cerros, la poesía que yace en la casa de Pablo Neruda y los antiguos y llamativos funiculares de los cerros son un espectáculo digno de ver. El Parque Quinta Vergara, el famoso Reloj de Flores, el Casino de Juegos y las maravillosas playas, invitan a disfrutar de la belleza y encanto de Viña del Mar.":"A “Jóia do Pacífico” e a “Cidade Jardim” se reúnem num passeio incrível. Neste passeio você pode visitar os lugares escondidos e a história de Valparaíso, a arquitectura única presente em suas colinas, a poesia da casa de Pablo Neruda e as antigas e incríveis elevadores das colinas são uma maravilha que você tem que viver. Em Viña del Mar, e posível visitar o Parque Quinta Vergara, o famoso Relógio de Flores, o Casino e as maravilhosas praias que convidamos você apreciar o encanto e a beleza de Vina del Mar",
+
+
+		"Tours":"Passeios",
+	  "Salida desde su hotel en horario convenido":"Saída do hotel no horário agendado",
+		"Visita Cerro y Ascensor Polanco":"Visita ao Cerro e Levante Polanco",
+		"Visita Casa Museo La Sebastiana":"Visita a Casa Museo La Sebastiana (Pablo Neruda)",
+		"Walking tour por Cerro Alegre y Concepción":"Passeio a pé em Cerro Alegre e Cerro Concepcion",
+		"Plaza Sotomayor y Muelle Prat":"Visita a Plaza Sotomayor e Muelle Prat",
+		"Almuerzo en Viña del Mar":"Almoço em Vina del Mar",
+		"Visita al Reloj de Flores":"Visita ao Relógio das Flores",
+		"Walking tour por Parque Vergara":"Passeio a pé em Parque Vergara",
+		"Descanso en Playa Los Cañones":"Visita a praia Los Cañones",
+		"Regreso a hotel":"Retorno ao hotel",
+		"Retorno a su hotel":"Retorno ao hotel",
+
+
+
+		"IMPORTANTE":"IMPORTANTE",
+		"Precio desde CLP $170.000 hasta 3 personas":"Preço desde CL$170.000 até 3 pessoas",
+		"Puedes realizar modificaciones en nuestro itinerario en caso de que desees visitar otros atractivos de la ciudad. Para realizar estas modificaciones, sólamente debes enviarnos un e­mail comentando dichos cambios.": "Em todos os nossos passeios , você pode modificar o itinerário para visitar outros locais e atracções das cidades. Para modificar o passeio apenas deve especificar via e­mail.",
+		"Preguntas y Reservas":"Perguntas e Reservas",
+		"aquí":"aqui",
+		"o directamente a nuestro mail":"o diretamente ao nosso e­mail",
+
+
+
+
+
+
+
+		"Pablo Neruda fue un autodenominado “Navegante de tierra”, en alusión a su inmenso amor por el mar. La brisa marina y la tranquilidad del sector lograba que la inspiración llegara a Neruda mejor que en cualquier otro lugar, incluso para darle un nuevo nombre al sector, llamado Isla Negra por él. Un lugar fantástico para un día de tranquilidad.":"Pablo Neruda chamou a si mesmo “Navegante de tierra”, referindo-se a seu imenso amor para o mar. A brisa do mar ea tranquilidade de Isla Negra deu muita inspiração para Pablo Neruda para escrever suas obras, tanta inspiração até para dar um nome para a área, chamada Isla Negra por causa dele. Um ótimo lugar para um dia de tranquilidade, vinhos incríveis, poesia e milhares de peças da coleção pessoal de Neruda.",
+
+		"Visita viñedo a elección en Valle de Casablanca": "Visita a vinha de sua escolha em Valle de Casablanca",
+		"Visita Casa Museo Isla Negra":"Visite Casa Museo Isla Negra",
+		"Almuerzo en Isla Negra o Algarrobo":"Almoço em Isla Negra ou Algarrobo",
+		"Descanso en Algarrobo (visita ferias artesanales o playa)":"empo para visitar feiras de artesanato ou praias",
+
+
+
+
+
+
+
+		"Tours en el Valle":"Passeios no Vale",
+
+		"Oculto entre la Cordillera de la Costa y la Cordillera de los Andes, el valle de la zona central de Chile esconde hermosos paisajes naturales.":"Escondido entre a Cordilheira da Costa e a Cordilheira dos Andes, o vale do Chile central esconde belas paisagens, sabores incríveis e as mais famosas vinhas do país. Descubra as maravilhas do nosso vale.",
+		"¡Descubre la historia y la naturaleza a los pies de la Cordillera de los Andes!":"Descubra a história, natureza e sabores escondidos de San José de Maipo, no pé da Cordilheira dos Andes!.",
+		"¡Santiago es mucho más que la capital de Chile!":"Santiago é muito mais do que a capital do Chile. Descobra a sua história e arquitetura !.",
+		"Wine Tours":"Wine Tours",
+		"Descubre los vinos de clase mundial a pocos kilómetros de Santiago.": "Venha degustar vinhos de classe mundial a poucos quilómetros de Santiago!",
+
+
+
+
+
+		"La maravillosa naturaleza que existe en la zona central de la imponente Cordillerade los Andes es un gran atractivo turístico de la Región Metropolitana. Sin embargo, no es lo único presente en San José de Maipo. Su cercanía con la capital de la región permite conocer su historia y patrimonio cultural de la zona.":"A natureza maravilhosa que existe na Cordilheira dos Andes é um importante ponto turístico da Região Metropolitana. Aqui você vai encontrar o Rio Maipo e pode realizar atividades em suas margens. Sua proximidade com a capital da região nos permite conhecer sua história e o património cultural da área a uma curta distância de Santiago. Nós convidamos você a conhecer a vida , a natureza e sabores que existem fora da cidade.",
+
+	  "Walking tour por centro de San José de Maipo":"Passeio a pé no centro de San José de Maipo",
+		"Actividad a elección en Cascada de las Ánimas (trekking, cabalgata, rafting, entre otros)":"Atividades opcionais em Cascada de las Animas (trekking, cavalgadas, rafting)",
+		"Visita a La Mielería de Pirque":"Visita à Fábrica de Mel de Pirque",
+		"Almuerzo en Pirque":"Almoço em Pirque",
+		"Visita a viña a elección (Santa Rita o Concha y Toro)":"Visita a Viña Santa Rita ou Viña Concha y Toro",
+
+
+
+
+
+
+		"La capital del Chile posee más historia de lo que se podría imaginar. Parques, edificios, barrios y museos nos muestran lo interesante y entretenida que puede llegar a ser, los mismos que demuestran la evolución que ha tenido la capital desde su fundación en 1541 hasta la actualidad.":"A capital do Chile tem mais história do que você poderia imaginar. Parques, edifícios, bairros históricos e museus nos mostram o quão interessante e divertido é Santiago. Nós convidamos você a conhecer os antigos edifícios da cidade que mostram a evolução de Santiago desde a sua fundação em 1541 até hoje.",
+
+		"Visita un museo a elección*":"Visita a um museu de sua escolha (*)" ,
+		"Visita al Casco Histórico y Mercado Central":"Visita a Santiago histórico e Mercado Central",
+		"Recorrido por la Plaza de Armas":"Passeio pela Praça de Armas",
+		"Walking tour por Barrio Paris Londres":"Passeio a pé em Barrio Paris Londres e  Barrio Lastarria",
+		"Walking Tour por Barrio Lastarria":"Passeio a pé em Barrio Lastarria",
+		"Walking Tour por Barrio Bellavista y cerro San Cristobal":"Passeio a pé em Barrio Bellavista e Cerro San Cristobal",
+
+
+
+
+		"Chile es un país de vinos. En la región central del país puedes encontrar una gran cantidad de viñedos, muchos de ellos han sido reconocidos y premiados a nivel internacional por su excelente calidad. Tres de los valles vinícolas más importantes en todo el país están en esta área: Colchagua, Casablanca y Maipo. Las diferentes cepas nos invitan a apreciar el sabor, aroma y color de los mejores vinos del mundo." :"O Chile é um país de vinho. Na região central do país, você pode encontrar um grande número de vinhedos, muitos deles foram reconhecidos e premiados internacionalmente. Três dos vales vinícolas mais importantes em todo o país estão nesta área : Casablanca, Maipo e Colchagua. As diferentes castas nos convidam a apreciar o sabor, aroma e cor dos melhores vinhos do mundo." ,
+
+		"*Viñas del Valle de Casablanca, Maipo o Colchagua.":"*Casablanca Valley Vineyard, Maipo and Colchagua.",
+		"Visita a viñas: Casablanca, Maipo o Colchagua":"Vinhas Visita: Casablanca, Maipo e Colchagua",
+		"Vinos de Maipo: Precio desde CLP $110.000 hasta 3 personas":"Vinhos Maipo: Preço desde CLP $110.000 até 3 pessoas",
+		"Vinos de Casablanca: Precio desde CLP $120.000 hasta 3 personas":"Vinhos Casablanca: Preço desde CLP $120.000 até 3 pessoas",
+
+		"Vinos de Colchagua: Precio desde CLP $190.000 hasta 3 personas":"Vinhos Colchagua: Preço desde CLP $190.000 até 3 pessoas",
+
+
+
+
+
+
+		"Tours en la montaña":"Passeios no Montanha",
+		"Ven a disfrutar del invierno en la majestuosa Cordillera de los Andes":"Venha desfrutar do inverno nos Andes!",
+		"Los deportes de invierno esperan por ti a pocos kilómetros de Santiago":"Os esportes de Inverno estão esperando por você a poucos quilómetros de Santiago!",
+
+		"Próximamente más información": "Em breve mais informações",
+
+		"A sólo unos cuantos kilómetros de Santiago, la Cordillera de los Andes nos ofrece nieve suficiente para realizar distintos deportes de invierno.":"A sólo unos cuantos kilómetros de Santiago, la Cordillera de los Andes nos ofrece nieve suficiente para realizar distintos deportes de invierno.",
+
+		"Valle nevado": "Valle nevado",
+		"A sólo 46 km de Santiago, Valle Nevado es uno de los resorts invernales y centros de ski más modernos en Chile y del continente. Nieve y deportes de invierno esperan para encantar a quienes lo visiten.":"Apenas a 46 km de Santiago, Valle Nevado é um dos resorts de inverno e centros de esqui mais modernas no Chile e no continente. Neve e esportes de inverno estão esperando para encantar a quem visita Valle Nevado.",
+
+		"Farellones - Colorado": "Farellones - Colorado",
+		"El pueblito de Farellones, su centro de ski a más de 2.300 metros sobre el nivel del mar, su encantador bosque y su cercanía con Santiago, lo hacen un sitio imperdible para visitar en el invierno de Chile.":"A aldeia de centro de esqui Farellones mais de 2.300 metros acima do nível do mar, por causa de sua encantadora floresta e sua proximidade com Santiago, Farellones é um lugar imperdível para visitar no inverno no Chile.",
+
+		"Visita a mirador de los Tres Valles": "Visita ao Mirador de los Tres Valles",
+		"Visita centro de Ski Farellones - Colorado": "Visita a Farellones Ski Center - Colorado",
+		"Almuerzo en Farellones.": "Almoço em Farellones",
+		"Precio desde CLP $220.000 hasta 3 personas":"Preço desde CLP $220.000 até 3 pessoas"
+
+
+
+	}
+}

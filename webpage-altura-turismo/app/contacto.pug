@@ -1,0 +1,35 @@
+
+.div-contacto
+  .container
+    h2.centrar-texto <strong lang="es">Viaja junto a <span lang="es" class="color-logo">nosotros</span></strong>
+    .row.seccion-contacto
+      .col-sm-6.col-sm-offset-3.form-box
+        .form-top
+          .form-top-left
+            h3(lang="es") Vive la experiencia Altüra
+            p(lang="es") Envíanos un mensaje
+          .form-top-right
+            i.fa.fa-envelope
+        .form-bottom.contact-form
+          form#contactForm.form(role='form', method='post', action='', name='contact')
+            fieldset
+              .form-group.has-feedback
+                .input-group
+                  span.input-group-addon.icon-form
+                    i.glyphicon.glyphicon-user
+                  input#name.form-control(type='text', name='name', lang="es", placeholder='Nombre...')
+                  span.form-control-feedback.glyphicon
+              .form-group.has-feedback
+                .input-group
+                  span.input-group-addon.icon-form
+                    i.glyphicon.glyphicon-envelope
+                  input#email.form-control(type='text', name='email', lang="es", placeholder='E-Mail...')
+                  span.form-control-feedback.glyphicon
+              .form-group.has-feedback
+                .input-group
+                  span.input-group-addon.icon-form
+                    i.glyphicon.glyphicon-pencil
+                  textarea#message.form-control(type='text', lang="es", name='message', rows='5', cols='20', placeholder='Mensaje...')
+                  span.form-control-feedback.glyphicon
+              .form-group
+                button#form-submit.btn.btn-lg.pull-right(type='submit',lang="es") Enviar Mensaje

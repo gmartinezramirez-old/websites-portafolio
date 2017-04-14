@@ -1,0 +1,93 @@
+doctype html
+html.no-js(lang='')
+	head
+		meta(charset='utf-8')
+		meta(name='description', content='')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		title Turismo Altüra
+		link(rel='apple-touch-icon', href='apple-touch-icon.png')
+		link(rel='stylesheet', href='styles/main.css')
+		link(href="styles/flag-icon.min.css", rel="stylesheet")
+	body
+
+		include header_b.pug
+
+		.espacio-blanco(style="height: 100px;")
+		
+		.contenedor-terminos
+			.row
+				.col-md-12
+					h1.centrar-texto Términos y condiciones de uso
+					br
+				.col-md-6.col-md-offset-3
+					p Turismo Altüra les desea una grata y única experiencia visitando la zona central de Chile.
+					p Con  el  fin  de  transparentar  el  proceso  de  compra  o  reserva  de  los  servicios  de  nuestra empresa,  hacemos  entrega  del  siguiente  documento,  el  cual  contiene  los  términos  y condiciones relacionados al servicio. Se solicita leer a conciencia.
+					br
+					strong 1. TÉRMINOS DE RESERVA, COMPRA Y VENTA
+					br
+					ul
+						li El proceso de compra debe ser realizado con al menos un día de anticipación a la ejecución del servicio. En el caso de las reservas, estas deben realizarse dos días antes del tour. ­ 
+						br
+						li El servicio deberá ser pagado previo a la realización del mismo, de forma presencial o mediante transferencia bancaria.  ­ 
+						br
+						li El  turista  será  el  encargado  de  entregar  información  adicional  relevante  a  la empresa, tal  como dificultades de movimiento de un integrante del grupo, alergias alimenticias,  dietas  especiales,  entre  otros.  De  esta  manera,  Turismo  Altüra  se asegurará de otorgar las medidas posibles para garantizar una óptima experiencia. ­ 
+						br
+						li En  caso  de  modificaciones  en  la  reserva  (cantidad  de  personas,  día  del  servicio, entre otros), el turista debe informar con al menos un día de anticipación. ­ 
+						br
+						li Los  servicios  ofrecidos  por  Turismo  Altüra  contienen  un  “Itinerario  Base”,  el  cual puede ser modificado de acuerdo a las necesidades y requerimientos de los turistas. Dichas modificaciones deben ser mencionadas al momento de la reserva/compra o previo  al  inicio  del  tour,  pudiendo  ser  orientados  por  los  profesionales  a  cargo  del servicio. ­ 
+						br
+						li Al  comprar  y/o  reservar  un  tour  con  Turismo  Altüra,  el  grupo  se  compromete  al cumplimiento de las reglas establecidas por el guía turístico que los acompañe, en relación  al  comportamiento  de  los  turistas  y  el  respeto  con  el  entorno  natural  y cultural en el que se encuentran. ­ 
+						br
+						li No se permite ningún tipo de mascotas en el transcurso del tour.
+						br
+					strong 2. POLÍTICA DE PRIVACIDAD
+					br
+					ul
+						li Para la efectiva cobertura de los seguros asociados, el turista deberá otorgar datos personales  básicos  (nombre  completo,  contacto,  entre  otros)  que  Turismo  Altüra solicite.  Sin  embargo,  estos  no  serán  utilizados  con  otros  fines  sin  previa autorización del cliente. ­ 
+						br
+						li El  encargado  del  grupo  garantiza  que  el  100%  de  la  información  entregada  es fidedigna y exacta.
+					br
+					strong 3. POLÍTICA DE CANCELACIÓN
+					br
+					ul
+						li El turista podrá solicitar la cancelación del servicio contratado o reservado, teniendo en cuenta que Turismo Altüra realizará la devolución del pago realizado, menos un recargo administrativo correspondiente al <strong>25%</strong> del valor total.  ­ 
+						br
+						li En caso de que el turista no se presente en el horario acordado,  con un límite de espera de 30 minutos, se hará devolución del pago, menos un recargo equivalente al <strong>35%</strong> del valor total del servicio, bajo el concepto de “no presentación” o “no show”. ­ 
+						br
+						li La  devolución  del  dinero  por  cancelación  o  “no  presentación”  será  realizada mediante  transferencia  bancaria  o  en  efectivo,  dependiendo  de  la  forma  de  pago utilizada por el cliente.
+
+		include footer.pug
+
+
+
+		// build:js scripts/vendor.js
+		// bower:js
+		script(src='/bower_components/jquery/dist/jquery.js')
+		// endbower
+		// endbuild
+		// build:js scripts/plugins.js
+		script(src='scripts/pgwslideshow.min.js')
+		script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js')
+		script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js')
+		script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js')
+		script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js')
+		script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js')
+		script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js')
+		script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js')
+		script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js')
+		script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js')
+		script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js')
+		script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js')
+		script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js')
+		script(src='/bower_components/js-cookie/src/js.cookie.js')
+		script(src='/bower_components/jquery.localScroll/jquery.localScroll.js')
+		script(src='/bower_components/jquery.scrollTo/jquery.scrollTo.js')
+		script(src='scripts/jquery-lang.js')
+		script(src='scripts/jquery.nav.js')
+		script(src='scripts/jquery.bxslider.min.js')
+		// endbuild
+		// build:js scripts/main.js
+		script(src='scripts/main.js')
+		script(src='scripts/form-scripts.js')
+		// endbuild
+

@@ -1,0 +1,50 @@
+extends ./layout_tours.pug
+
+
+block imagenPortada
+	block portada
+
+block contenido
+	.contenedor-seccion
+		.row
+			.col-lg-8.col-lg-offset-2
+				block descripcion
+
+	.contenedor-seccion
+		.row
+			.contenedor-itinerario.col-xs-12.col-sm-offset-1.col-sm-10.col-md-offset-1.col-md-10.col-lg-offset-2.col-lg-8
+				h2(lang="es") Itinerario Base
+				.row.fix-row-itinerario
+					.col-xs-offset-1.col-xs-4.col-sm-offset-1.col-sm-4.col-md-offset-1.col-md-4.col-lg-offset-1.col-lg-4
+						.divider
+					.col-xs-2.col-sm-2.col-md-2.col-lg-2.col-md-2.fix-icon-it
+						i.fa.fa-calendar-check-o(aria-hidden="true")
+					.col-xs-4.col-sm-4.col-md-4.col-lg-4
+						.divider
+				block itinerario
+				.nota-importante
+					p <strong lang="es">IMPORTANTE</strong>
+					p(lang="es") Puedes realizar modificaciones en nuestro itinerario en caso de que desees visitar otros atractivos de la ciudad. Para realizar estas modificaciones, sólamente debes enviarnos un e­mail comentando dichos cambios.
+					p(lang="es") Preguntas y Reservas
+						span
+							strong
+								a(href='index.html#contacto', lang="es") &nbsp;aquí
+						span(lang="es") &nbsp;o directamente a nuestro mail
+							strong &nbsp;contacto@turismoaltura.cl
+
+
+	.contenedor-seccion.fix-ul
+		ul.pgwSlideshow
+			block listaImagenes
+
+
+
+
+
+
+
+
+
+
+
+

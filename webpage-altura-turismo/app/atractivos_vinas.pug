@@ -1,0 +1,36 @@
+extends ./layout_atractivos_zona.pug
+
+block portada
+	.portada-vinas
+		h1.titulo-portada Wine Tours
+
+block descripcion
+	p(lang="es") Chile es un país de vinos. En la región central del país puedes encontrar una gran cantidad de viñedos, muchos de ellos han sido reconocidos y premiados a nivel internacional por su excelente calidad. Tres de los valles vinícolas más importantes en todo el país están en esta área: Colchagua, Casablanca y Maipo. Las diferentes cepas nos invitan a apreciar el sabor, aroma y color de los mejores vinos del mundo.
+
+
+
+
+block itinerario
+	- list = ["Salida desde su hotel en horario convenido", "Visita a viñas: Casablanca, Maipo o Colchagua", "Regreso a hotel"]
+	ul(style="list-style-type:none;")
+		each item in list
+			li(lang="es")= item
+		li(lang="es", style="background-color:#b42020; color:white")= "Vinos de Maipo: Precio desde CLP $110.000 hasta 3 personas"
+		li(lang="es", style="background-color:#b42020; color:white")= "Vinos de Casablanca: Precio desde CLP $120.000 hasta 3 personas"
+		li(lang="es", style="background-color:#b42020; color:white")= "Vinos de Colchagua: Precio desde CLP $190.000 hasta 3 personas"
+	//p(lang="es") *Viñas del Valle de Casablanca, Maipo o Colchagua.
+
+
+block listaImagenes
+	li
+		img(src="images/vinas1.jpg", lang="es", alt="Colchagua")
+	li
+		img(src="images/vinas2.jpg", lang="es", alt="Camino en Colchagua")
+	li
+		img(src="images/vinas3.jpg", lang="es", alt="Tour Viña Viu Manent Colchagua")
+	li
+		img(src="images/vinas4.jpg", lang="es", alt="Viña Lapostolle Colchagua")
+	li
+		img(src="images/vinas5.jpg", lang="es", alt="Viña Santa Rita Maipo")
+
+

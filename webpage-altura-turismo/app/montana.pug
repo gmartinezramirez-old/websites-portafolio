@@ -1,0 +1,43 @@
+extends ./layout_categoria.pug
+
+block imagenPortada
+
+	.portada-montana
+		h1.titulo-portada(lang="es") Tours en la montaña
+
+block descripcion
+
+	.div-categoria
+		.row
+			.col-lg-6.col-lg-offset-3
+				h4.centrar-texto(lang="es") A sólo unos cuantos kilómetros de Santiago, la Cordillera de los Andes nos ofrece nieve suficiente para realizar distintos deportes de invierno.
+
+block viajes
+	.row
+		.col-md-8.col-md-offset-2.col-sm-10.col-sm-offset-1
+			.row
+				.col-md-4.col-md-offset-2.col-sm-4.col-sm-offset-2.col-xs-10.col-xs-offset-1.col-viaje
+					a(href="vallenevado.html" class="link-viaje")
+						.contenedor-viaje
+							.row.contenedor-imagen
+								img(src="images/chica-vallenevado.jpg", alt="Viaje", ).imagen-viaje
+							.row.contenedor-descripcion
+								.descripcion-titulo.color-logo
+									h3(lang="es") Valle Nevado
+								.descripcion-contenido
+									h5(lang="es") Ven a disfrutar del invierno en la majestuosa Cordillera de los Andes
+									h5(lang="es") Más información aquí
+									br
+
+				.col-md-4.col-md-offset-0.col-sm-4.col-sm-offset-0.col-xs-10.col-xs-offset-1.col-viaje
+					a(href="farellones.html" class="link-viaje")
+						.contenedor-viaje
+							.row.contenedor-imagen
+								img(src="images/chica-farellones.jpg", alt="Viaje", ).imagen-viaje
+							.row.contenedor-descripcion
+								.descripcion-titulo.color-logo
+									h3(lang="es") Farellones - Colorado
+								.descripcion-contenido
+									h5(lang="es") Los deportes de invierno esperan por ti a pocos kilómetros de Santiago
+									h5(lang="es") Más información aquí
+									br

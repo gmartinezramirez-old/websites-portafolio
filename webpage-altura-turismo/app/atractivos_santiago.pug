@@ -1,0 +1,34 @@
+extends ./layout_atractivos_zona.pug
+
+block portada
+	.portada-santiago
+		h1.titulo-portada(lang="es") City Tour Santiago
+
+block descripcion
+	p(lang="es") La capital del Chile posee más historia de lo que se podría imaginar. Parques, edificios, barrios y museos nos muestran lo interesante y entretenida que puede llegar a ser, los mismos que demuestran la evolución que ha tenido la capital desde su fundación en 1541 hasta la actualidad.
+
+
+
+block itinerario
+	- list = ["Salida desde su hotel en horario convenido", "Visita un museo a elección*" ,"Visita al Casco Histórico y Mercado Central", "Recorrido por la Plaza de Armas", "Walking tour por Barrio Paris Londres", "Walking Tour por Barrio Lastarria", "Walking Tour por Barrio Bellavista y cerro San Cristobal", "Regreso a hotel"]
+	ul(style="list-style-type:none;")
+		each item in list
+			li(lang="es")= item
+	p(lang="es") *Museo Histórico Nacional, Museo Nacional de Bellas Artes, Museo Nacional de Historia Natural,
+	| Museo Colonial San Francisco,
+	| Museo de la Memoria y los Derechos Humanos,
+	| Casa Museo La Chascona (Hogar del poeta Pablo Neruda)
+
+block listaImagenes
+	li
+		img(src="images/santiago.jpg", alt="Santiago desde las alturas")
+	li
+		img(src="images/santiago1.jpg", alt="Barrio París Londes")
+	li
+		img(src="images/santiago2.jpg", alt="Barrio París Londes")
+	li
+		img(src="images/santiago3.jpg", alt="Centro Cultural Palacio La Moneda")
+	li
+		img(src="images/santiago4.jpg", alt="Vista desde el Palacio de la Moneda")
+	li
+		img(src="images/santiago5.jpg", alt="Frontis Palacio de la Moneda")

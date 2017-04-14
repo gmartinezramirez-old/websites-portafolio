@@ -1,0 +1,192 @@
+{
+	"token": {
+		"Inicio":"Home",
+		"Servicios":"Services",
+		"Nuestra Empresa":"Our Company",
+		"Contacto":"Contact",
+		"Tours Mar":"Tours Sea",
+		"Tours Montaña":"Tours Mountain",
+		"Tours Valle":"Tours Valley",
+		"Transfer":"Transfer",
+		"Ingles":"English",
+		"Español":"Spanish",
+		"Portugués":"Portuguese",
+
+
+		"Bienvenido a":"Welcome to",
+		"los sabores y secretos de Chile":"the flavors and secrests of Chile",
+		"Descubre":"Discover",
+		"¡Vive la":"Live the",
+		"experiencia Altüra!":"Altüra Experience!",
+
+
+		"Turismo Altüra": "Turismo Altüra's",
+		"Viajes seguros con profesionales": "Safe trips, with professionals people",
+		"Valores acordes a sus requisitos": "Price according your requirements",
+		"Tours flexibles a sus necesidades": "Flexible tours to your needs",
+		"Conozca los increíbles atractivos turísticos de la zona central de Chile: la belleza del Océano Pacífico, los fascinantes viñedos, la historia de Santiago, la naturaleza presente en el valle y los emocionantes deportes de invierno.": "Know the incredible attractions of Chile’s Central Zone: the Pacific Ocean’s beauty, the fascinating vineyards, Santiago’s history, the nature that exists in the valley and the exciting snow sports.",
+		"Mar": "Sea",
+		"Valle": "Valley",
+		"Montaña": "Montain",
+
+
+		"Quienes somos":"About Us",
+		"Liderada por dos profesionales de la industria":"Headed by two industry’s professionals",
+		", Turismo Altüra es una empresa joven, orientada a entregar una experiencia única y privada a los turistas que deseen conocer la zona central de Chile. Destaca la cercanía lograda con las personas que prefieren a Turismo Altüra.":", Altüra Tourism is a young company, oriented to give a private and unique experience to the passengers who wants to know the central zone of Chile. Noted for the closeness achieved with people who prefer Altüra Tourism.",
+
+		"se dedica a otorgar un servicio de excelencia, completamente de acuerdo a las necesidades y requerimientos de cada grupo de turistas. Por este motivo, ningún servicio entregado por Turismo Altüra es igual a otro: cada tour es una experiencia única e irrepetible.":"is dedicated to grant excellence service, according to needs and requirements of each group of tourists. This is why none of any services given by Altüra Tourism is the same as another: each tour is an unrepeatable and unique experience.",
+		"Nuestra misión": "Our mission",
+		"es entregar las mejores experiencias a través de Circuitos Turísticos Privados de la más alta calidad en increíbles destinos nacionales, principalmente de la zona central de Chile, con un interés especial en fomentar el desarrollo de negocios locales, buscando satisfacer las necesidades identificadas de nuestros clientes, por medio de la flexibilidad y la comunicación constante, de modo de enriquecer tanto a la sociedad residente como a la visitante.": " is to grant the best experiences through Private Full-Days of the highest quality in incredible national destinations, mainly of the central zone of Chile, with a special interest in promoting the development of local businesses, looking for satisfy the identified needs of our customers, through flexibility and constant communication, so enriching both: the resident as the visiting society.",
+		"Nuestra visión": "Our vision",
+		"es ser una empresa líder en el mercado turístico, capaz de satisfacer las necesidades de  cada grupo de turistas que lleguen al país.": "is to be a leader company in the tourism market, capable of satisfying the needs of each group of tourists who arrived the country.",
+
+		"Viaja junto a": "Travel with",
+		"nosotros": "us!",
+		"Vive la experiencia Altüra": "Live the Altüra Experiencie!",
+		"Envíanos un mensaje": "Send us a message!",
+		"Nombre...": "Name...",
+		"E-Mail...": "E-Mail...",
+		"Mensaje...": "Message...",
+		"Enviar Mensaje": "Send",
+
+
+		"Terminos y condiciones de uso.": "Terms and conditions of use.",
+		"@2016 Turismo Altüra. Todos los derechos reservados": "@2016 Turismo Altüra. All rights reserved",
+
+
+
+
+		"Itinerario Base":"Basic Schedule",
+		"Tours en el Mar":"Tours near the Sea",
+
+		"El Océano Pacífico baña las costas de Chile, invitando a descansar y recorrer las ciudades que se encuentran en sus orillas.":"The Pacific Ocean bathes Chilean coasts, inviting to rest and travel through the cities that lie in its seashores.",
+
+		"Valparaíso y Viña del Mar":"Valparaíso and Viña del Mar",
+		"¡Ven a conocer la historia de la Joya del Pacífico y la Ciudad Jardín!": "Come to know the history of the “Jewel of the Pacific” and the “Garden City”!",
+
+		"Más información aquí": "More information here",
+
+		"Isla Negra": "Isla Negra",
+		"¡La poesía y la brisa marina se unen en el hogar preferido de Pablo Neruda!": "The poetry and sea breeze join together in Pablo Neruda’s favorite home!",
+
+
+
+
+
+
+		"La “Joya del Pacífico” y la “Ciudad Jardín” se unen en un increíble tour. Los rincones y la historia de Valparaíso, la inigualable arquitectura presente en sus cerros, la poesía que yace en la casa de Pablo Neruda y los antiguos y llamativos funiculares de los cerros son un espectáculo digno de ver. El Parque Quinta Vergara, el famoso Reloj de Flores, el Casino de Juegos y las maravillosas playas, invitan a disfrutar de la belleza y encanto de Viña del Mar.":"La “Joya del Pacífico” y la “Ciudad Jardín” se unen en un increíble tour. Los rincones y la historia de Valparaíso, la inigualable arquitectura presente en sus cerros, la poesía que yace en la casa de Pablo Neruda y los antiguos y llamativos funiculares de los cerros son un espectáculo digno de ver. El Parque Quinta Vergara, el famoso Reloj de Flores, el Casino de Juegos y las maravillosas playas, invitan a disfrutar de la belleza y encanto de Viña del Mar.",
+
+
+		"Tours":"Tours",
+	  "Salida desde su hotel en horario convenido":"Pick up from the hotel at agreed time.",
+		"Visita Cerro y Ascensor Polanco":"Visit to Polanco Elevator and Hill.",
+		"Visita Casa Museo La Sebastiana":"Visit to Museum House La Sebastiana.",
+		"Walking tour por Cerro Alegre y Concepción":"Walking tour by Cerro Alegre and Concepción.",
+		"Plaza Sotomayor y Muelle Prat":"Sotomayor Square and Muelle Prat.",
+		"Almuerzo en Viña del Mar":"Lunch in Viña del Mar.",
+		"Visita al Reloj de Flores":"Visit to Reloj de Flores.",
+		"Walking tour por Parque Vergara":"Walking tour by Vergara Park.",
+		"Descanso en Playa Los Cañones":"Rest time in Los Cañones Beach.",
+		"Regreso a hotel":"Return to hotel.",
+		"Retorno a su hotel":"Drop off at your hotel.",
+
+
+
+		"IMPORTANTE":"IMPORTANT",
+		"Precio desde CLP $170.000 hasta 3 personas":"Price from CL$170.000 per 3 people",
+		"Puedes realizar modificaciones en nuestro itinerario en caso de que desees visitar otros atractivos de la ciudad. Para realizar estas modificaciones, sólamente debes enviarnos un e­mail comentando dichos cambios.": "You can modify this tour in order to visit other attractions in the citiy. To modify this tour, please send us an e­mail describing your changes.",
+		"Preguntas y Reservas":"Questions and Reservations",
+		"aquí":"here",
+		"o directamente a nuestro mail":"o directly to our e­mail",
+
+
+
+
+
+
+		"Pablo Neruda fue un autodenominado “Navegante de tierra”, en alusión a su inmenso amor por el mar. La brisa marina y la tranquilidad del sector lograba que la inspiración llegara a Neruda mejor que en cualquier otro lugar, incluso para darle un nuevo nombre al sector, llamado Isla Negra por él. Un lugar fantástico para un día de tranquilidad.":"Pablo Neruda fue un autodenominado “Navegante de tierra”, en alusión a su inmenso amor por el mar. La brisa marina y la tranquilidad del sector lograba que la inspiración llegara a Neruda mejor que en cualquier otro lugar, incluso para darle un nuevo nombre al sector, llamado Isla Negra por él. Un lugar fantástico para un día de tranquilidad.",
+
+		"Visita viñedo a elección en Valle de Casablanca":"Visit to a vineyard in Casablanca Valley.",
+		"Visita Casa Museo Isla Negra":"Visit to Musem House Isla Negra.",
+		"Almuerzo en Isla Negra o Algarrobo":"Lunch in Isla Negra or Algarrobo.",
+		"Descanso en Algarrobo (visita ferias artesanales o playa)":"Rest time in Algarrobo (craft fairs or beach).",
+
+
+
+
+
+
+		"Tours en el Valle":"Tour in the Valley",
+
+		"Oculto entre la Cordillera de la Costa y la Cordillera de los Andes, el valle de la zona central de Chile esconde hermosos paisajes naturales.":"Hidden between the Coast Mountain Range and The Andes Mountain Range, the Chile’s Central Zone’s valley hides beautiful natural landscapes.",
+		"¡Descubre la historia y la naturaleza a los pies de la Cordillera de los Andes!":"Discover the history and nature at the Andes!",
+		"¡Santiago es mucho más que la capital de Chile!":"Santiago is much more than just the capital city of Chile!",
+		"Wine Tours":"Wine Tours",
+		"Descubre los vinos de clase mundial a pocos kilómetros de Santiago.": "Discover the world class wines from Chile!",
+
+
+
+
+
+
+		"La maravillosa naturaleza que existe en la zona central de la imponente Cordillerade los Andes es un gran atractivo turístico de la Región Metropolitana. Sin embargo, no es lo único presente en San José de Maipo. Su cercanía con la capital de la región permite conocer su historia y patrimonio cultural de la zona.":"La maravillosa naturaleza que existe en la zona central de la imponente Cordillerade los Andes es un gran atractivo turístico de la Región Metropolitana. Sin embargo, no es lo único presente en San José de Maipo. Su cercanía con la capital de la región permite conocer su historia y patrimonio cultural de la zona.",
+
+	  "Walking tour por centro de San José de Maipo":"Walking tour by San José de Maipo town",
+		"Actividad a elección en Cascada de las Ánimas (trekking, cabalgata, rafting, entre otros)":"Chosen activity in Cascada de las Ánimas (trekking, horse ride, rafting, among others).",
+		"Visita a La Mielería de Pirque":"Visit to La Mielería de Pirque (Honey Shop)",
+		"Almuerzo en Pirque":"Lunch in Pirque",
+		"Visita a viña a elección (Santa Rita o Concha y Toro)":"Visit to a vineyard (Santa Rita or Concha y Toro)" ,
+
+
+
+
+
+
+
+		"La capital del Chile posee más historia de lo que se podría imaginar. Parques, edificios, barrios y museos nos muestran lo interesante y entretenida que puede llegar a ser, los mismos que demuestran la evolución que ha tenido la capital desde su fundación en 1541 hasta la actualidad.":"La capital del Chile posee más historia de lo que se podría imaginar. Parques, edificios, barrios y museos nos muestran lo interesante y entretenida que puede llegar a ser, los mismos que demuestran la evolución que ha tenido la capital desde su fundación en 1541 hasta la actualidad.",
+
+
+
+		"Visita un museo a elección*":"Visit to the chosen museum*" ,
+		"Visita al Casco Histórico y Mercado Central":"Visit to the Central Market and the Historical Center",
+		"Recorrido por la Plaza de Armas":"Tour in the Main Square",
+		"Walking tour por Barrio Paris Londres":"Walking tour by Barrio Paris Londres",
+		"Walking Tour por Barrio Lastarria":"Walking tour by Barrio Lastarria",
+		"Walking Tour por Barrio Bellavista y cerro San Cristobal":"Walking tour by Barrio Bellavista and San Cristobal hill",
+
+
+
+
+
+		"Chile es un país de vinos. En la región central del país puedes encontrar una gran cantidad de viñedos, muchos de ellos han sido reconocidos y premiados a nivel internacional por su excelente calidad. Tres de los valles vinícolas más importantes en todo el país están en esta área: Colchagua, Casablanca y Maipo. Las diferentes cepas nos invitan a apreciar el sabor, aroma y color de los mejores vinos del mundo." :"Chile is a wines country. You can find a large number of vineyards in the central area of Chile, many of them have been awarded for its world class quality. Three of the most important Chile’s wine valleys are in this area: Colchagua, Casablanca and Maipo. The different wine grape varieties calls you to appreciate the taste and color of our best wines." ,
+
+		"*Viñas del Valle de Casablanca, Maipo o Colchagua.":"*Casablanca Valley Vineyard, Maipo and Colchagua.",
+		"Visita a viñas: Casablanca, Maipo o Colchagua":"Visit vineyard: Casablanca, Maipo or Colchagua",
+
+		"Vinos de Maipo: Precio desde CLP $110.000 hasta 3 personas":"Maipo wines: Price from CLP $110.000 per 3 people",
+		"Vinos de Casablanca: Precio desde CLP $120.000 hasta 3 personas":"Casablanca wines: Price from CLP $120.000 per 3 people",
+		"Vinos de Colchagua: Precio desde CLP $190.000 hasta 3 personas":"Colchagua wines: Price from CLP $190.000 per 3 people",
+
+
+
+		"Tours en la montaña":"Tours in the Mountain",
+		"Ven a disfrutar del invierno en la majestuosa Cordillera de los Andes":"Ven a disfrutar del invierno en la majestuosa Cordillera de los Andes",
+		"Los deportes de invierno esperan por ti a pocos kilómetros de Santiago":"Los deportes de invierno esperan por ti a pocos kilómetros de Santiago",
+
+		"Próximamente más información": "Soon more information",
+
+		"A sólo unos cuantos kilómetros de Santiago, la Cordillera de los Andes nos ofrece nieve suficiente para realizar distintos deportes de invierno.":"Just a few kilometers far from Santiago, the Andes Mountain Range offers to us enough snow to do different winter sports.",
+
+		"Valle nevado": "Valle nevado",
+		"A sólo 46 km de Santiago, Valle Nevado es uno de los resorts invernales y centros de ski más modernos en Chile y del continente. Nieve y deportes de invierno esperan para encantar a quienes lo visiten.":"Apenas a 46 km de Santiago, Valle Nevado é um dos resorts de inverno e centros de esqui mais modernas no Chile e no continente. Neve e esportes de inverno estão esperando para encantar a quem visita Valle Nevado.",
+
+		"Farellones - Colorado": "Farellones - Colorado",
+		"El pueblito de Farellones, su centro de ski a más de 2.300 metros sobre el nivel del mar, su encantador bosque y su cercanía con Santiago, lo hacen un sitio imperdible para visitar en el invierno de Chile.":"El pueblito de Farellones, su centro de ski a más de 2.300 metros sobre el nivel del mar, su encantador bosque y su cercanía con Santiago, lo hacen un sitio imperdible para visitar en el invierno de Chile.",
+		"Visita a mirador de los Tres Valles": "Visit to Los Tres Valles Balcony",
+		"Visita centro de Ski Farellones - Colorado": "Visit to Centro de Ski Farellones - Colorado",
+		"Almuerzo en Farellones.": "Lunch in Farellones",
+		"Precio desde CLP $220.000 hasta 3 personas":"Price from CLP $220.000 per 3 people"
+
+	}
+}
+
